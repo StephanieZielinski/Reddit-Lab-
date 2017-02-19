@@ -6,7 +6,7 @@ $(function(){
     console.log(data);
     postData = data;
 
-    for (var i = 0; i<11; i++){
+    for (var i = 0; i<10; i++){
      var info = postData.data.children[i].data;
 
        $("#container").append('<div class="post">'
@@ -42,3 +42,21 @@ $(function(){
 //                post.data.author;
 //                post.data.submit;
 //                post.data.num_comments;
+// $(function() {
+//
+// var postData = {};
+// $.get('https://www.reddit.com/r/aww/.json', function(data) {
+// console.log(data);
+//
+// postData = data;
+// var redditInfo = postData.data.children;
+// for(var i = 0; i < 10; i++){
+//
+//
+// var redImage =
+// var redTitles = $('<h1>').text(redditInfo[i].data.title);
+// $('body').append(redTitles);
+// var redAuthor = $('<p>').text(redditInfo[i].data.author);
+// $('body').append(redAuthor);
+// var redComments = $('<p>').text(redditInfo[i].data.num_comments);
+// $(‘body’).append(redComments);  } }); });

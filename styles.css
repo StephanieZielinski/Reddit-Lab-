@@ -1,5 +1,6 @@
 body {
   font-family: 'Slabo 27px', serif;
+  background-color: #A0DDE6;
 
 }
 
@@ -15,11 +16,13 @@ body {
   color: black;
 }
 
+
+
 .title, .author, .comments{
   font-family: 'Slabo 10px', serif;
   position: relative;
 	border-style: solid;
-	border-color: black;
+	border-color: #5C946E;
 	top: 0px;
 	left: 200px;
 	width: 50%;
@@ -38,6 +41,7 @@ img{
 
 .post {
 	border-style: solid;
-  border-color: yellow;
+  border-color: #30C5FF;
+  
 	/*position: relative;*/
 }
